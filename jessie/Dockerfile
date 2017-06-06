@@ -1,4 +1,4 @@
-FROM debian:8
+FROM debian:jessie
 MAINTAINER Shiqiao Du <lucidfrontier.45@gmail.com>
 
 RUN set -ex \
@@ -6,6 +6,7 @@ RUN set -ex \
         bzip2 \
         ca-certificates \
         curl \
+        libgomp1 \
     ' \
     && apt-get update \
     && apt-get install -y --no-install-recommends $deps \
