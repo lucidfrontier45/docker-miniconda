@@ -7,6 +7,7 @@ RUN set -ex \
         ca-certificates \
         curl \
         libgomp1 \
+        libgfortran3 \
     ' \
     && apt-get update \
     && apt-get install -y --no-install-recommends $deps \
