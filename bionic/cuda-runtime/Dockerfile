@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM nvidia/cuda:10.1-base
 LABEL maintainer="Shiqiao Du <lucidfrontier.45@gmail.com>"
 
 RUN set -ex \
