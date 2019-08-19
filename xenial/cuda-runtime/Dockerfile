@@ -1,4 +1,4 @@
-FROM nvidia/cuda:10.1-runtime
+FROM nvidia/cuda:9.0-runtime
 MAINTAINER Shiqiao Du <lucidfrontier.45@gmail.com>
 
 RUN set -ex \
