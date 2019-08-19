@@ -1,4 +1,4 @@
-FROM nvidia/cuda:10.1-base
+FROM ubuntu:xenial
 MAINTAINER Shiqiao Du <lucidfrontier.45@gmail.com>
 
 RUN set -ex \
